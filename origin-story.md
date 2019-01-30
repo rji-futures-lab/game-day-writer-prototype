@@ -39,7 +39,7 @@ You can build it with any material you like: Paper, cardboard, pipecleaners, a h
 
 For our project, we created wireframes using [Balsamiq](https://balsamiq.com/wireframes/), then compiled the image files into stop-motion animation style videos.
 
-[demo in iframe]
+<iframe src="game-day-writer-prototype.s3-website.us-east-2.amazonaws.com" </iframe>
 
 ## Field Research
 
