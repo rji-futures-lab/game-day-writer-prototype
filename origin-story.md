@@ -2,7 +2,7 @@
 
 It's probably too early to start building that great new product idea you've been sitting on, but it's never too early to start prototyping it.
 
-That's a key takeaway I picked up from a [bootcamp](https://medium.com/matter-driven-narrative/a-lot-more-experiments-open-matter-e3088db96fb) I attended in May 2018 focused on design thinking. The bootcamp was lead by Matter VC, in partnership with Google News Lab, and was hosted here at RJI.
+That's a key takeaway I picked up from a [bootcamp](https://medium.com/matter-driven-narrative/a-lot-more-experiments-open-matter-e3088db96fb) I attended in May 2018 focused on design thinking. The bootcamp was led by Matter VC, in partnership with Google News Lab, and was hosted here at RJI.
 
 Design thinking is a popular framework for innovation that emphasizes prototyping to get your product idea out of your head and into the hands of potential users.
 
@@ -31,7 +31,7 @@ Any one of these directions could result in months of research that (while intel
 
 ## "Paper" prototyping
 
-One common misconception about prototypes is they require custom, cutting-edge tech. For example, I tended to think of prototypes as those fancy gadgets 007 picks up whenever he pays a visit to Q in any installment of the James Bond franchise.
+One common misconception about prototypes is that they require custom, cutting-edge tech. For example, I tended to think of prototypes as those fancy gadgets 007 picks up whenever he pays a visit to Q in any installment of the James Bond franchise.
 
 However, a prototype can be any pre-production artifact that advances your design. This includes a wide-range of deliverables, everything from low-fidelity wireframes to high-fidelity simulated user interfaces.
 
@@ -39,7 +39,9 @@ You can build it with any material you like: Paper, cardboard, pipecleaners, a h
 
 For our project, we created wireframes using [Balsamiq](https://balsamiq.com/wireframes/), then compiled the image files into stop-motion animation style videos.
 
-<iframe src="http://game-day-writer-prototype.s3-website.us-east-2.amazonaws.com" frameborder="0" allowfullscreen></iframe>
+![Preview of prototype](https://github.com/rji-futures-lab/game-day-prototype/raw/master/img/preview.gif)
+
+A full version of the prototype is available [here](http://game-day-writer-prototype.s3-website.us-east-2.amazonaws.com/).
 
 ## Field Research
 
@@ -63,45 +65,48 @@ We also observed that every sportswriter working on a Mac was writing in TextEdi
 1. The computer came that way. They didn't have to download or install anything.
 2. TextEdit's application window is small and unobstrusive. This is important if you're working on 13-inch monitor with mlb.com, Twitter, other websites and several text files all open at once. Screen real estate is precious.
 
-Finally, we noticed that during the game sportswriters are really active on Twitter, providing off-the-cuff context and analysis as the action unfolds. They often re-purpose the text of these tweets later when they file copy at the end of the game.
+Finally we noticed that, while they're covering games sportswriters, are really active on Twitter, providing off-the-cuff context and analysis as the action unfolds. They often re-purpose the text of these tweets later when they file copy at the end of the game.
 
 Many of these insights came from our interviews and observations. Take note, reporters, because you're already *really* good at these research methods that are incredibly useful for early stage design work.
 
 ## Ideate and Iterate
 
-Basically, we needed to go back to the drawing board. This was a hardly a setback, though, since we never really left the drawing board.
+Basically, we needed to go back to the drawing board. This was hardly a setback, though, since we never really left the drawing board.
 
 The insight that stuck out most for us was the one about Twitter. While not that surprising, the fact that journalists re-purpose so much of what they share on Twitter felt important, especially to those of us with previous experience covering breaking news.
 
 We decided to broaden our scope. Maybe we should make something, not just for sportswriters, but for any journalist covering a live event: a city council meeting, a press conference...anything where journalists first share their observations on Twitter and file copy later.
 
-Broadening your design scope tends to be easier than narrowing it. When you've done the work to discover salient insights in a specific context, you can look around to see if they hold up in related contexts. 
+Broadening your design scope tends to be easier than narrowing it. When you've done the work to discover salient insights in a specific context, you can look around to see if they hold up in other similar contexts. 
 
 The next key step that helped us adapt, rather counter-intuitively, was adding a design constraint: What if the entire user experience stayed in Twitter?
 
-This choice wasn't arbitrary. As we discovered, journalists aren't eager to download new apps or figure out new user interfaces. Instead, maybe we could leverage the affordances of Twitter, which is already integrated into the workflows of many journalists.
+This choice wasn't arbitrary. As we discovered, journalists aren't especially eager to download new apps or figure out new user interfaces. Instead, maybe we could leverage the affordances of Twitter, which is already integrated into the workflows of many journalists.
 
 At first, we called it "Magic Follower".
 
-[ imgs of new prototype ]
+![Follow Magic Follower.](https://github.com/rji-futures-lab/game-day-prototype/raw/master/img/magic-follower-1.png)
 
 We imagined it as of personal assistant that lived on Twitter. Reporters out covering live events would interact with it via direct message on Twitter, just as they might with a colleague back in the newsroom.
 
-[ imgs of new prototype ]
+![Magic Follower will convert your tweets to text.](https://github.com/rji-futures-lab/game-day-prototype/raw/master/img/magic-follower-2.png)
 
-The feedback we gathered from this new prototype was uniformly positive. That gave us the confidence we needed to actually build it.
+The feedback we gathered from this new prototype was uniformly positive. That gave us the confidence we needed to actually start building it.
 
 ## Summing up
 
 Often we think about innovation in terms of *problem-solving*, but it's more practical to think in terms of *problem-framing*.
 
-If you're focused on solving a problem, then it's easy to over-invest in any idea that feels like the right solution, even to the contrary of new information about what people really want.
+If you're focused on solving a problem, then it's easy to over-invest in any idea that feels like the right solution. Once you're over-invested, adapting to new information about what people really want is difficult.
 
 Instead, think of every product idea as a stepping stone that may take you closer to understanding the problem. Early in your project's lifecycle, you want to take leaps—even really big ones—before you lock in development plans.
 
 Prototyping helps you make those early leaps by testing your intuitions against the real world. The feedback you gather from prototyping can help you refine your design while the stakes are low and your capacity to adapt is high. 
 
-In the next segment, we'll get down and nerdy with details how we made TweetsToText using [Twitter's Account Activity API](https://developer.twitter.com/en/products/accounts-and-users/account-activity-api.html).
+## To be continued...
 
+Our idea and design continued to evolve as we built out. For one thing, we renamed to [TweetsToText](https://www.tweetstotext.io/) in order to provide more immediately clarity about what it does.
 
+TweetsToText is in beta now, and we're looking for feedback from anyone willing to try it out.
 
+In our next segment, we'll get down and nerdy with details about how we made TweetsToText using [Twitter's Account Activity API](https://developer.twitter.com/en/products/accounts-and-users/account-activity-api.html).
