@@ -39,7 +39,7 @@ You can build it with any material you like: Paper, cardboard, pipecleaners, a h
 
 For our project, we created wireframes using [Balsamiq](https://balsamiq.com/wireframes/), then compiled the image files into stop-motion animation style videos.
 
-![Preview of prototype](https://github.com/rji-futures-lab/game-day-prototype/raw/master/img/preview.gif)
+![Preview of prototype](https://raw.githubusercontent.com/rji-futures-lab/game-day-writer-prototype/master/img/preview.gif)
 
 A full version of the prototype is available [here](http://game-day-writer-prototype.s3-website.us-east-2.amazonaws.com/).
 
@@ -85,11 +85,11 @@ This choice wasn't arbitrary. As we discovered, journalists aren't especially ea
 
 At first, we called it "Magic Follower".
 
-![Follow Magic Follower.](https://github.com/rji-futures-lab/game-day-prototype/raw/master/img/magic-follower-1.png)
+![Follow Magic Follower.](https://raw.githubusercontent.com/rji-futures-lab/game-day-writer-prototype/master/img/magic-follower-1.png)
 
 We imagined it as of personal assistant that lived on Twitter. Reporters out covering live events would interact with it via direct message on Twitter, just as they might with a colleague back in the newsroom.
 
-![Magic Follower will convert your tweets to text.](https://github.com/rji-futures-lab/game-day-prototype/raw/master/img/magic-follower-2.png)
+![Magic Follower will convert your tweets to text.](https://raw.githubusercontent.com/rji-futures-lab/game-day-writer-prototype/master/img/magic-follower-2.png)
 
 The feedback we gathered from this new prototype was uniformly positive. That gave us the confidence we needed to actually start building it.
 
