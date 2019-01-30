@@ -8,7 +8,7 @@ Design thinking is a popular framework for innovation that emphasizes prototypin
 
 The sooner users get a hands-on experience, the more time you have to experiment with your design and gather valuable feedback. The more feedback you have, the smarter you'll be in deciding how to focus your time and effort.
 
-Here's how the Futures Lab recently used prototyping to help us figure out what we actually wanted to build.
+Here in the Futures Lab, we recently used prototyping to help us figure out what we actually wanted to build. If you're someone who is eager to build something new, keep reading to see how you can move your idea forward without over-committing too early.
 
 ## The Sportswriters Dilemma
 
@@ -31,26 +31,31 @@ Any one of these directions could result in months of research that (while intel
 
 ## "Paper" prototyping
 
-One common misconception about prototypes is that they require custom, cutting-edge tech. For example, I tended to think of prototypes as those fancy gadgets 007 picks up whenever he pays a visit to Q in any installment of the James Bond franchise.
+You already have everything you need to make your first prototype, or you can easily get it.
 
-However, a prototype can be any pre-production artifact that advances your design. This includes a wide-range of deliverables, everything from low-fidelity wireframes to high-fidelity simulated user interfaces.
+Early stage prototyping doesn't require require custom, cutting-edge tech. You can use simple office or craft supplies like paper, cardboard, pipecleaners, a hidden person operating the "autonomous" components (it's called a "Wizard of Oz" prototype, and it's [definitely a real thing](https://en.wikipedia.org/wiki/Wizard_of_Oz_experiment))...whatever helps you materialize your idea and gives users something interactive.
 
-You can build it with any material you like: Paper, cardboard, pipecleaners, a hidden person operating the "autonomous" components (it's called a "Wizard of Oz" prototype, and it's [definitely a real thing](https://en.wikipedia.org/wiki/Wizard_of_Oz_experiment))...whatever helps you materialize your idea and gives users something to with which they can interact.
+There are also plenty of great digital tools. Check out this great [roundup on prototypr.io](https://www.prototypr.io/prototyping?Category=%5B%22%E2%9C%82%EF%B8%8F+Prototyping%22%5D). You'll notice how these tools are used to produce a wide-range of deliverables: Everything from low-fidelity wireframes to high-fidelity simulated user interfaces. That's because a prototype can be any pre-production artifact that advances your design. The right tool is the one that fits wherever you are in your project. 
 
-For our project, we created wireframes using [Balsamiq](https://balsamiq.com/wireframes/), then compiled the image files into stop-motion animation style videos.
+My go-to tool is [Balsamiq](https://balsamiq.com/wireframes/), particularly for my first prototype of an idea. Balsamiq strikes a nice balance of control and constraint. It's easy to use, and unabashedly low-fi, so you're less inclined to be distracted by extraneous details of your design.
+
+The primary purpose of our first prototype was to test this key assumption: There is a significant overlap between the copy a sportswriter drafts for one predicted outcome of a game versus the opposite outcome.
+
+Using image files exported from Balsamiq, I produced a series of stop-motion animation style videos that show how our tool would fit into the original user story that inspired our project.
 
 ![Preview of prototype](https://raw.githubusercontent.com/rji-futures-lab/game-day-writer-prototype/master/img/preview.gif)
 
 A full version of the prototype is available [here](http://game-day-writer-prototype.s3-website.us-east-2.amazonaws.com/).
 
+Pretty basic, right?
+
+In the early stages of design, however, the point isn't to impress your audience. That can easily backfire. What you really need is to test your assumptions and gather honest feedback.
+
+And honest feedback comes from real-world users.
+
 ## Field Research
 
-Granted, our first prototype was a little rough. However, it allowed us to test key assumptions embedded in our idea. Specifically:
-
-* Are there really just two versions of a single gameday story?
-* Is there really a lot of overlap between these two versions of the story? (Otherwise, why not just switch between two completely separate documents?)
-
-To answer those questions, we took a field trip to Kansas City during baseball season and visited the Kauffman Stadium press box. We talked to sportswriters about their jobs, observed their work routines and showed them our prototype.
+During baseball season, we took a field trip to Kansas City and visited the Kauffman Stadium press box. There we talked to sportswriters about their jobs, observed their work routines and showed them our prototype.
 
 The feedback was rather mixed. One writer described the potential tool as "handy". However, no one could imagine it easily fitting into their existing workflows. Rustin Dodd of *The Athletic* summed up our challenge quite lucidly. "Every reporter is different about how they organize their thoughts on deadline," Dodd said.
 
@@ -71,7 +76,7 @@ Many of these insights came from our interviews and observations. Take note, rep
 
 ## Ideate and Iterate
 
-Basically, we needed to go back to the drawing board. This was hardly a setback, though, since we never really left the drawing board.
+We needed to go back to the drawing board. This was hardly a setback, though, since we never really left the drawing board.
 
 The insight that stuck out most for us was the one about Twitter. While not that surprising, the fact that journalists re-purpose so much of what they share on Twitter felt important, especially to those of us with previous experience covering breaking news.
 
@@ -105,7 +110,7 @@ Prototyping helps you make those early leaps by testing your intuitions against 
 
 ## To be continued...
 
-Our idea and design continued to evolve as we built out. For one thing, we renamed to [TweetsToText](https://www.tweetstotext.io/) in order to provide more immediately clarity about what it does.
+Our idea and design continued to evolve as we built out our tool. For one thing, we renamed to [TweetsToText](https://www.tweetstotext.io/) in order to provide more immediately clarity about what it does.
 
 TweetsToText is in beta now, and we're looking for feedback from anyone willing to try it out.
 
