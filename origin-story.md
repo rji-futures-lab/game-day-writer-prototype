@@ -65,7 +65,7 @@ Still, we walked away with a lot of potent insights.
 
 For starters, we realized the pacing of basketball and baseball are extremely different. The frenetic scenario depicted in our prototype, where the winner and the loser keep switching places into the final minutes, wasn't that familiar to writers who cover baseball.
 
-We also observed that every sportswriter working on a Mac was writing in TextEdit, the default text editor pre-installed on every Mac since 2001. When we asked why, two answers stuck out:
+We also observed that every sportswriter working on a Mac was writing in [TextEdit](https://support.apple.com/guide/textedit/welcome/mac), the default text editor pre-installed on every Mac since 2001. When we asked why, two answers stuck out:
 
 1. The computer came that way. They didn't have to download or install anything.
 2. TextEdit's application window is small and unobstrusive. This is important if you're working on 13-inch monitor with mlb.com, Twitter, other websites and several text files all open at once. Screen real estate is precious.
