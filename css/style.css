@@ -1,0 +1,67 @@
+body{
+  background: #555;
+}
+.flip {
+  -webkit-perspective: 800;   
+          perspective: 800;
+        position: relative;
+        text-align: center;
+}
+.flip #display.flipped {
+  -webkit-transform: rotatey(-180deg);
+          transform: rotatey(-180deg);
+}
+.flip #display {
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    background-color: #fff;
+   
+}
+.flip #display .face {
+  -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+   z-index: 3;
+}
+
+.flip #display .front {
+   position: absolute;
+   z-index: 1;
+}
+.flip #display video {
+   position: relative;
+   z-index: 1;
+}
+.flip #display .back {
+  -webkit-transform: rotatey(-180deg);
+          transform: rotatey(-180deg);
+}
+.flip #display .wayback {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+.front .row {
+  padding-top: 15%;
+}
+.inner {
+  margin:0px !important;
+}
+
+.nav-fill {
+  opacity: 0.9;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.footer-hide {
+  opacity: 0.0;
+}
+
+.nav-link {
+  margin-left: 250px;
+  margin-right: 250px;
+  color: white;
+}

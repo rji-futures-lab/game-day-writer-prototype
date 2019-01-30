@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"></script>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+
+  </head>
+
+  <body>
+    <div class="row justify-content-center">
+      <div class="flip">
+        <div id='display' class="col-12"> 
+          <div class="face front container"> 
+            <div class="inner row justify-content-center">
+              <div class="col-10">
+                <p id="note" class="lead">
+                </p>
+                <p id="action" class="lead">
+                </p>
+                <button class="btn btn-primary" id="demo-btn">Demo</button>
+              </div>
+            </div>
+          </div> 
+          <div class="face back"> 
+            <div class="inner">
+              <video id="demo" autoplay="autoplay" loop="loop" width="1024" height="700">
+                <source src="img/0.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="face back wayback"> 
+            <div class="inner">
+              <img src="/img/0.png">
+            </div>
+          </div>
+        </div>  
+      </div>
+      <nav class="nav fixed-bottom justify-content-center navbar-dark bg-dark nav-fill footer-hide">
+        <a id="prev" class="nav-link" href="#">Previous</a>
+        <a id="next" class="nav-link" href="#">Next</a>
+      </nav>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</html>
