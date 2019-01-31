@@ -110,7 +110,7 @@ Prototyping helps you make those early leaps by testing your intuitions against 
 
 ## To be continued...
 
-Our idea and design continued to evolve as we built out our tool. For one thing, we renamed to [TweetsToText](https://www.tweetstotext.io/) in order to provide more immediately clarity about what it does.
+Our idea and design continued to evolve as we built out our tool. For one thing, we renamed [TweetsToText](https://www.tweetstotext.io/) so as to be more obvious about what it does.
 
 TweetsToText is in beta now, and we're looking for feedback from anyone willing to try it out.
 
