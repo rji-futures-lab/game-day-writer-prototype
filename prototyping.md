@@ -104,7 +104,7 @@ So we decided to broaden our scope. Maybe we should make something, not just for
 
 Broadening your design scope tends to be easier than narrowing it. When you've done the work to discover salient insights in a specific context, you can look around to see if they hold up in other similar contexts. 
 
-More to the point, *any* significant shift in scope would have been more onerous had we not invested so little in our design up to this point. Since our output thus far had been essentially a series of digital doodles, we didn't think twice about tossing it all aside and trying something different.
+More to the point: *Any* significant shift in scope would have been onerous had we not invested so little in our design up to this point. Our output thus far had been essentially a series of digital doodles, so we didn't think twice about tossing it all aside and trying something different.
 
 ## Just getting started
 
