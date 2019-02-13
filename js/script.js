@@ -1,4 +1,6 @@
 var currSlide = 0;
+var waiting = true;
+var showDemo = false;
 
 slides = [
     {
@@ -26,7 +28,7 @@ slides = [
             '4.mp4', '5.mp4', '6.mp4' 
         ],
         "backSeq": ['2.png', '3.png'],
-        "delay": 5000,
+        "delay": 5500,
     },
     {
         "note": "You can write copy for a Tigers win, a Bulldogs win, or for either outcome.",
@@ -35,7 +37,7 @@ slides = [
             '6.mp4', '7.mp4', '8.mp4' 
         ],
         "backSeq": ['3.png', '4.png'],
-        "delay": 8000,
+        "delay": 9800,
     },
     {
         "note": "Now it looks like the Bulldogs are sure to win.",
@@ -58,7 +60,6 @@ slides = [
 ];
 
 $( document ).ready( function() {
-
   $("#note").text(slides[0]["note"]);
   $("#action").text(slides[0]["action"]);
 });
@@ -66,6 +67,7 @@ $( document ).ready( function() {
 
 $("#demo").on({
     'click': function() {
+        waiting = false;
 
         var transImg = slides[currSlide]["vidSeq"][1];
         var restImg = slides[currSlide]["vidSeq"][2];
@@ -82,17 +84,19 @@ $("#demo").on({
         setTimeout(function() {
             $("#demo").attr('src', '/img/' + restImg);
             $("#demo").attr('loop', 'loop');
+            $('.nav-fill').toggleClass('footer-hide');
+
         }, delay);
     }
 });
 
 $('#demo-btn').click(function(){
+    var showDemo = true;
     var startImg = slides[currSlide]["vidSeq"][0];
     var backImg = slides[currSlide]["backSeq"][0];
     $("#demo").attr('src', '/img/' + startImg);
     $(".wayback img").attr('src', '/img/' + backImg);
     $('.flip').find('#display').toggleClass('flipped');
-    $('.nav-fill').toggleClass('footer-hide');
 });
 
 $('#next').click(function(){
@@ -106,7 +110,7 @@ $('#next').click(function(){
     };
 
     $('.nav-fill').toggleClass('footer-hide');
-    
+    var showDemo = false;
 });
 
 $('#prev').click(function(){
@@ -122,6 +126,6 @@ $('#prev').click(function(){
     };
 
     $('.nav-fill').toggleClass('footer-hide');
-    
-});
 
+    var showDemo = false;
+});
